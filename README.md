@@ -43,6 +43,7 @@ s.n. dasgupta
 cat < file1
 ## OUTPUT
 
+![Screenshot from 2025-03-06 09-28-33](https://github.com/user-attachments/assets/d057f45d-7968-455b-a3bd-9bb6206192e7)
 
 
 cat < file2
