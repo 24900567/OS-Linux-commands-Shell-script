@@ -100,6 +100,7 @@ cut -d "|" -f 1 file22
 
 cut -d "|" -f 2 file22
 ## OUTPUT
+![Screenshot from 2025-03-08 22-25-20](https://github.com/user-attachments/assets/17e91b39-2fc2-497e-91d7-c038acff4cc3)
 
 
 cat < newfile 
@@ -117,31 +118,36 @@ grep Hello newfile
 
 
 
-grep hello newfile 
+grep Dhinesh newfile 
 ## OUTPUT
+![Screenshot from 2025-03-08 22-27-26](https://github.com/user-attachments/assets/49d1abb8-9d60-405a-8306-97041dfb6321)
 
 
 
 
 grep -v hello newfile 
 ## OUTPUT
+![Screenshot from 2025-03-08 22-29-19](https://github.com/user-attachments/assets/d0ccbbc4-9f3a-4c82-8416-18ce6b226e4d)
 
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
+![Screenshot from 2025-03-08 22-30-09](https://github.com/user-attachments/assets/57ccb842-3f71-44df-ba89-6766abf6f051)
 
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
+![Screenshot from 2025-03-08 22-30-44](https://github.com/user-attachments/assets/36c8eaaa-c736-4334-b8ce-bec26a489f18)
 
 
 
 grep -R ubuntu /etc
 ## OUTPUT
+![Screenshot from 2025-03-08 22-31-08](https://github.com/user-attachments/assets/a8aec486-3ee2-4ee6-a35c-58aae6615797)
 
 
 
@@ -202,6 +208,7 @@ egrep '(world$)' newfile
 
 egrep '(World$)' newfile 
 ## OUTPUT
+![Screenshot from 2025-03-08 21-03-26](https://github.com/user-attachments/assets/521a3f1d-f83f-4b9e-8b2a-b8586055623b)
 
 
 egrep '((W|w)orld$)' newfile 
@@ -212,6 +219,7 @@ egrep '((W|w)orld$)' newfile
 
 egrep '[1-9]' newfile 
 ## OUTPUT
+![image](https://github.com/user-attachments/assets/0ee0baea-b287-4622-a853-379ffc97c609)
 
 
 
@@ -223,11 +231,6 @@ egrep 'Linux.*world' newfile
 egrep 'Linux.*World' newfile 
 ## OUTPUT
 ![Screenshot from 2025-03-08 21-03-38](https://github.com/user-attachments/assets/c056f1bc-3849-475f-8b11-bc90f5eb8e74)
-
-
-egrep l{2} newfile
-## OUTPUT
-
 
 
 egrep 's{1,2}' newfile
@@ -258,6 +261,7 @@ sed -n -e '3p' file23
 sed -n -e '$p' file23
 ## OUTPUT
 
+![Screenshot from 2025-03-08 22-37-05](https://github.com/user-attachments/assets/a3ba9b03-52c9-467a-aaf5-19dac6d75170)
 
 
 sed  -e 's/Ram/Sita/' file23
@@ -430,6 +434,7 @@ ls .gz
 
 gunzip backup.tar.gz
 ## OUTPUT
+![image-56](https://github.com/user-attachments/assets/89d205e5-4429-446a-8b51-b54f5dea82da)
 
  
 # Shell Script
@@ -1150,6 +1155,7 @@ else
 fi
 ```
 ## OUTPUT 
+![image](https://github.com/user-attachments/assets/b4666fee-0420-43c7-8bc2-d5871ce904cf)
 
 
 # RESULT:
